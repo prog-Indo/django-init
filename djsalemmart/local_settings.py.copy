@@ -1,0 +1,21 @@
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'salemmart',
+        'USER': 'imamasari',
+        'PASSWORD': '',
+        'HOST': '',
+        'PORT': '',
+    }
+}
+
+ALLOWED_HOSTS = ['*']
+
+# WKHTMLTOPDF_CMD = '/usr/local/bin/wkhtmltopdf'
+
+# from google.oauth2 import service_account
+# DEFAULT_FILE_STORAGE = 'storages.backends.gcloud.GoogleCloudStorage'
+# GS_BUCKET_NAME = 'test_sekber'
+# GS_CREDENTIALS = service_account.Credentials.from_service_account_file(
+#     "SekberSatgas-e92d8ee7a84e.json"
+# )
